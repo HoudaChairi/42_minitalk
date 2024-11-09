@@ -122,5 +122,9 @@ Received message: Hello, 1337!
 
 ## 📚 Resources
 
-- Signal Handling in UNIX
-- Inter-process Communication
+- [Signal Handling in UNIX](https://www.gnu.org/software/libc/manual/html_node/Signal-Handling.html)
+- [Inter-process Communication (IPC) Overview](https://tldp.org/LDP/tlk/ipc/ipc.html)
+- [Unix Signals Explained](https://www.tutorialspoint.com/unix/unix-signals-traps.htm)
+- [The GNU C Library - Signal Messages](https://www.gnu.org/software/libc/manual/html_node/Signal-Messages.html)
+- [Linux Manual - signal(7)](https://man7.org/linux/man-pages/man7/signal.7.html)
+- [Linux Manual - sigaction(2)](https://man7.org/linux/man-pages/man2/sigaction.2.html)
