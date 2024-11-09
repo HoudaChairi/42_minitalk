@@ -9,7 +9,6 @@ Minitalk is a 42 school project focused on inter-process communication (IPC) usi
 - [🎯 Objectives](#objectives)
 - [📋 Requirements](#requirements)
 - [⚙️ Installation](#installation)
-- [🚀 Usage](#usage)
 - [💡 Example](#example)
 - [🛠️ Error Handling](#error-handling)
 - [📚 Resources](#resources)
@@ -68,34 +67,9 @@ This will produce two executables:
 - `server` 🖥️
 - `client` 📬
 
-## 🚀 Usage
-
-### 1. Start the Server 🖥️
-
-Run the server to get its PID (Process ID), which will be used by the client to send messages:
-
-```bash
-./server
-```
-
-The server will output its PID, which you'll use to send messages from the client.
-
-### 2. Send a Message with the Client 📬
-
-To send a message to the server, use the client with the server's PID and a message:
-
-```bash
-./client  "Your message here"
-```
-
-Example:
-```bash
-./client 12345 "Hello, server!"
-```
-
 ## 💡 Example
 
-1. Run the Server in one terminal:
+### 1. Start the Server 🖥️
 ```bash
 ./server
 ```
@@ -104,7 +78,7 @@ Expected output:
 Server PID: 12345
 ```
 
-2. Send a message with the Client from another terminal:
+### 2. Send a Message with the Client 📬
 ```bash
 ./client 12345 "Hello, 1337!"
 ```
